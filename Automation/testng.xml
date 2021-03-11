@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.actitime.testscripts.A"/>
+      <class name="qsp.TestDemo"/>
+      <class name="qsp.CustomerMoedl"/>
+      <class name="com.actitime.testscripts.Assignment"/>
+      <class name="qsp.HeightWidth"/>
+      <class name="qsp.DeleteCustomer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
